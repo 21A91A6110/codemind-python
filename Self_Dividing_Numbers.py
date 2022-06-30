@@ -1,5 +1,5 @@
 a=int(input())
-b=int(input()) 
+b=int(input())
 temp=0
 count=0
 r=0
@@ -14,3 +14,4 @@ for i in range(a,b+1):
         temp=temp//10
     if temp==0:
         print(i,end=" ")
+            
